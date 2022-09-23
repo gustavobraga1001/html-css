@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+* {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #212025;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+div.foto {
+    background-color: white;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+div#buscar {
+    background-color: rgba(43, 42, 47, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
+    width: 320px;
+    height: 35px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+div.card {
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
+    width: 300px;
+    height: 80px;
+    background-color: rgba(43, 42, 47, 1);
+    border-radius: 6px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+p.name {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+p.stars {
+    display: flex;
+    padding-left: 5px;
+}
+
+div#conteudo {
+    display: block;
+}
+
+img#stars {
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+img#stars-low {
+    width: 18px;
+    height: 16px;
+    padding-right: 5px;
+}
+
+div#stars{
+    padding-left: 15px;
+    display: -webkit-box;
+}
+
+img#lupa {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+div#teste {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* tamanho total no eixo x (largura)*/
+    height: 2.5rem; /* tamanho do seu footer */
+
+}
+
+img#icon {
+    width: 30px;
+    height: 30px;
+}
